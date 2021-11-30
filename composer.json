@@ -1,0 +1,20 @@
+{
+    "name": "vendor/name",
+    "autoload": {
+        "psr-4": {
+            "Sogener\\Crt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gleb Kalinin",
+            "email": "glebstuck@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}
