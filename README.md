@@ -7,9 +7,7 @@ ___
 
 ### Docker-hub
 
-`docker pull sogener/crt-symfony-2_mysql_1` <br>
-`docker pull sogener/crt-symfony-2_webserver_1` <br>
-`docker pull sogener/crt-symfony-2_php-fpm_1`
+`docker pull sogener/crt-symfony-2_mysql_1 && docker pull sogener/crt-symfony-2_webserver_1 && docker pull sogener/crt-symfony-2_php-fpm_1`
 
 ### Composer
 
