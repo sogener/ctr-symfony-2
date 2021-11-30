@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f522028318b47650e5794796c27ac8a",
+    "content-hash": "69471d9526a1cc0320c78133fac0dff9",
     "packages": [],
     "packages-dev": [
         {
@@ -68,51 +68,6 @@
                 }
             ],
             "time": "2021-11-21T21:41:47+00:00"
-        },
-        {
-            "name": "leongrdic/db-pdo-mysql",
-            "version": "v3.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leongrdic/php-db-pdo-mysql.git",
-                "reference": "d54d12edfe6c4d108f8363256298aa93ce85d74c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leongrdic/php-db-pdo-mysql/zipball/d54d12edfe6c4d108f8363256298aa93ce85d74c",
-                "reference": "d54d12edfe6c4d108f8363256298aa93ce85d74c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Le\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Leon",
-                    "email": "leongrdic@gmail.com"
-                }
-            ],
-            "description": "PDO MySQL wrapper that simplifies database communication",
-            "keywords": [
-                "database",
-                "mysql",
-                "pdo"
-            ],
-            "support": {
-                "issues": "https://github.com/leongrdic/php-db-pdo-mysql/issues",
-                "source": "https://github.com/leongrdic/php-db-pdo-mysql/tree/master"
-            },
-            "time": "2019-03-16T13:02:43+00:00"
         },
         {
             "name": "phpoption/phpoption",
