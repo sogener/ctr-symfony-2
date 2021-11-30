@@ -27,29 +27,6 @@ class Dbconn
             $connection = new PDO($dsn, $user, $password);
 
             $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-//            fixMe: Хот-фикс, исправить в будущем
-            $sql = "create table users
-(
-	id int not null,
-	name varchar(255) not null,
-	age int not null,
-	email varchar(50) not null
-);
-
-create unique index users_id_uindex
-	on users (id);
-
-alter table users
-	add constraint users_pk
-		primary key (id);
-
-";
-            $stmt = $connection->prepare($sql);
-            if (!$stmt->execute()) {
-                throw new Exception('Ошибка при создании таблицы в БД');
-            }
             return $connection;
         } catch (PDOException $e) {
             die('Ошибка при подключении к бд: ' . $e->getMessage());
