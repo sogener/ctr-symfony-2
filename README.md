@@ -1,6 +1,9 @@
 # crt-symfony-2
 ___
-cp .env.example .env
+
+### Как использовать?
+
+1. cp .env.example .env
 
 ### Docker-hub
 
